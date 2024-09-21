@@ -65,7 +65,6 @@ let [raindrops, whiskers, ...aFewOfMyFavoriteThings] = [
 console.log(numbers) // [10, 30, 20]
 //Originally forgot the index starts at 0. Quick fix
 
-
 //ES2015 Refactoring
 var obj = {
     numbers: {
@@ -76,7 +75,6 @@ var obj = {
   
   var a = obj.numbers.a;
   var b = obj.numbers.b;
-
 
 //My Answer:
 var obj = {
@@ -89,7 +87,6 @@ var obj = {
 //I thought I had to separately have const a and const b. Quick fix
 const {a, b} = obj.numbers
 
-
 //ES5 array swap:
 var arr = [1, 2];
 var temp = arr[0];
@@ -99,7 +96,6 @@ arr[1] = temp;
 //My answer: one-line array swap:
 var arr = [1, 2]
 [arr[0], arr[1]] = [arr[1], arr[0]]
-
 
 //Race Results:
 const raceResults = ([first, second, third, ...rest]) => ({first, second, third, rest})
