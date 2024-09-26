@@ -56,8 +56,6 @@ let [raindrops, whiskers, ...aFewOfMyFavoriteThings] = [
   console.log(aFewOfMyFavoriteThings); 
   // ['Bright copper kittles', 'warm woolen mittens', 'Brown paper packages tied up with strings']
 
-
-
   //Array destructuring 3
   let numbers = [10, 20, 30];
 [numbers[1], numbers[2]] = [numbers[2], numbers[1]]
