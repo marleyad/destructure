@@ -32,7 +32,6 @@ let planetFacts = {
   getUserData({}) 
   // Your name is undefined and you like green
 
-
   //Array destructuring 1
   let [first, second, third] = ["Maya", "Marisa", "Chi"];
 
