@@ -1,6 +1,6 @@
 console.log('pea')
 
-// Object Destructing 1
+// Object Destructing 1 
 let facts = {numPlanets: 8, yearNeptuneDiscovered: 1846};
 let {numPlanets, yearNeptuneDiscovered} = facts;
 
